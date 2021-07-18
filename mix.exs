@@ -5,7 +5,7 @@ defmodule AngotiaResourcesApi.Mixfile do
     [
       app: :angotia_resources_api,
       version: "1.0.0",
-      elixir: "~> 1.11.2",
+      elixir: "~> 1.12.0",
       elixirc_paths: elixirc_paths(Mix.env),
       compilers: [:phoenix, :gettext] ++ Mix.compilers,
       start_permanent: Mix.env == :prod,
