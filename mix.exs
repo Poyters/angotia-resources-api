@@ -33,21 +33,21 @@ defmodule AngotiaResourcesApi.Mixfile do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:phoenix, "~> 1.5.7"},
+      {:phoenix, "~> 1.5.9"},
       {:phoenix_pubsub, "~> 2.0"},
-      {:phoenix_ecto, "~> 4.1"},
-      {:postgrex, ">= 0.15.0"},
+      {:phoenix_ecto, "~> 4.3"},
+      {:postgrex, ">= 0.15.9"},
       {:gettext, "~> 0.18"},
-      {:plug_cowboy, "~> 2.3"},
-      {:ecto_sql, "~> 3.4.4"},
-      {:absinthe, "~> 1.5.1"},
+      {:plug_cowboy, "~> 2.5"},
+      {:ecto_sql, "~> 3.6.2"},
+      {:absinthe, "~> 1.6.4"},
       {:absinthe_plug, "~> 1.5"},
       {:absinthe_phoenix, "~> 2.0"},
       {:absinthe_relay, "~> 1.5"},
-      {:poison, "~> 3.1"},
-      {:jason, "~> 1.0"},
+      {:poison, "~> 4.0"},
+      {:jason, "~> 1.2"},
       {:elixir_uuid, "~> 1.2"},
-      {:cors_plug, "~> 1.5"}
+      {:cors_plug, "~> 2.0"}
     ]
   end
 
