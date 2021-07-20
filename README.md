@@ -9,5 +9,6 @@ Angotia Resources is web site that gives each Angotia player possibility to chec
 ## Changelog
 
 ### Version 1.0.0 (planned June 2021)
+- AR-107, Update Elixir and Phoenix versions
 - AR-110, Separate client from API layer
 
