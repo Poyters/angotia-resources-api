@@ -15,7 +15,8 @@ config :angotia_resources_api, AngotiaResourcesApiWeb.Endpoint,
   secret_key_base: "mxpWzMMPutAKZl3GUD47Qu4CCXtACfaw2OVvsWL0Y+UMQH8QIE42CCLVoTEehVaj",
   render_errors: [view: AngotiaResourcesApiWeb.ErrorView, accepts: ~w(json)],
   pubsub: [name: AngotiaResourcesApi.PubSub,
-           adapter: Phoenix.PubSub.PG2]
+           adapter: Phoenix.PubSub.PG2],
+  live_view: [signing_salt: "CCRam2SlrajOMtn7sY7FqC+5qf5ED6k8"]
 
 # Configures Elixir's Logger
 config :logger, :console,

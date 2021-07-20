@@ -47,7 +47,8 @@ defmodule AngotiaResourcesApi.Mixfile do
       {:poison, "~> 3.1"},
       {:jason, "~> 1.0"},
       {:elixir_uuid, "~> 1.2"},
-      {:cors_plug, "~> 1.5"}
+      {:cors_plug, "~> 1.5"},
+      {:phoenix_live_dashboard, "~> 0.4"}
     ]
   end
 
